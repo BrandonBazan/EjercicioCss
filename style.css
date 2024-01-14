@@ -1,0 +1,21 @@
+body{
+    background-color:  #78d3c8;
+}
+
+table {
+    border-collapse: collapse;
+    border: yellow 3px solid;
+    font-size: 13px;
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0%; right:0%;
+}
+
+td{
+    border-left: yellow 3px solid;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+}
