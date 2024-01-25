@@ -1,21 +1,35 @@
-body{
-    background-color:  #78d3c8;
+body {
+    background-color:  #78d3c8!important;
 }
 
-table {
-    border-collapse: collapse;
-    border: yellow 3px solid;
-    font-size: 13px;
-    text-align: center;
-    color: blue;
+.counter-box {
     background-color: aliceblue;
-    position: absolute;
-    top: 0%; right:0%;
+    border: yellow 1px solid;
+    color: blue;
+    font-size: 13px;
+    height: 5.5rem;
+    margin: 1rem!important;
+    width: 36rem!important;
 }
 
-td{
-    border-left: yellow 3px solid;
-    align-items: center;
-    padding: 10px;
-    width: 100px;
+.counter {
+    border: yellow 1px solid;
+    border-collapse: collapse;
+    display: flex;
+    height: 5.5rem;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 25%;
+}
+
+.counter-title {
+    bottom: 2rem;
+    position: absolute;
+    width: 60%;
+}
+
+.counter-value {
+    bottom: 0.5rem;
+    position: absolute;
 }
